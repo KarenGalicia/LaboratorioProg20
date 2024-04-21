@@ -49,7 +49,6 @@ namespace LaboratorioProg20.Laboratorio.Hija
 
         internal void MostrarTablaLideres()
         {
-            throw new NotImplementedException();
         }
     }
 }
