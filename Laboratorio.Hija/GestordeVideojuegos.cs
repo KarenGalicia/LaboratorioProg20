@@ -9,7 +9,6 @@ namespace LaboratorioProg20.Laboratorio.Hija
 {
     internal class GestordeVideojuegos
     {
-        // Clase estática GestorDeVideojuegos
         internal static class GestorDeVideojuegos
         {
             private static List<VideoJuego> listaVideojuegos = new List<VideoJuego>();

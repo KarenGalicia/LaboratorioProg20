@@ -30,9 +30,26 @@ namespace LaboratorioProg20.Laboratorio.Hija
             Console.WriteLine("Munición Total: " + MunicionTotal);
         }
 
+        public void Disparar()
+        {
+            if (MunicionTotal > 0)
+            {
+                Console.WriteLine("¡Disparando!");
+                MunicionTotal--;
+            }
+            else
+            {
+                Console.WriteLine("¡Sin munición! Por favor, recarga.");
+            }
+        }
         public void RecargarMunicion()
         {
             Console.WriteLine("Recargando munición...");
+        }
+
+        internal void MostrarTablaLideres()
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -13,7 +13,10 @@ namespace LaboratorioProg20.Laboratorio.Hija
         private string deporte;
 
         public JuegoDeportes(string titulo, string desarrolladora, double calificacion, int anioLanzamiento, string deporte)
-            : base(titulo, desarrolladora, calificacion, anioLanzamiento) => Deporte = deporte;
+            : base(titulo, desarrolladora, calificacion, anioLanzamiento)
+        {
+            Deporte = deporte;
+        }
 
         public string Deporte
         {
@@ -30,6 +33,11 @@ namespace LaboratorioProg20.Laboratorio.Hija
         public void MostrarReglas()
         {
             Console.WriteLine("Mostrando reglas del deporte...");
+        }
+
+        internal void CompartirEnRedesSociales()
+        {
+            throw new NotImplementedException();
         }
     }
 }
